@@ -15,6 +15,14 @@ Now you can see vboxnet0 in the "Name" dropdown in the VM.
 Next, we have to add Host-only Adapter on the second VM aswell.
 
 ![enter image description here](https://i.imgur.com/3TYVSre.png)
+
+Now configure network interface on VM1(CentOs) with the following command
+
+![](https://i.imgur.com/D0BJ9zl.png)
+
+On VM2(Ubuntu), we have to configure the interface aswell
+![](https://i.imgur.com/1vTIwBF.png)
+
 To Share connection between these two Virtual Machines we have to add following command to the CentOs
 
 `modprobe iptable_nat`  
