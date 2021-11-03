@@ -23,6 +23,10 @@ Now configure network interface on VM1(CentOs) with the following command
 On VM2(Ubuntu), we have to configure the interface aswell
 ![](https://i.imgur.com/1vTIwBF.png)
 
+Now lets ping between the VM1 and VM2
+
+![](https://i.imgur.com/FKg5Ven.png)
+
 To Share connection between these two Virtual Machines we have to add following command to the CentOs
 
 `modprobe iptable_nat`  
