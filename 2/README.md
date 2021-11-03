@@ -26,10 +26,12 @@ On VM2(Ubuntu), we have to configure the interface aswell
 Now lets ping between the VM1 and VM2
 
 Ping from CentOs to Ubuntu
+
 ![](https://i.imgur.com/FKg5Ven.png)
 
 Ping from Ubuntu to CentOs
-![](https://i.imgur.com/1pchNGc.png)
+
+![](https://i.imgur.com/JrHEouD.png)
 
 To Share connection between these two Virtual Machines we have to add following command to the CentOs
 
